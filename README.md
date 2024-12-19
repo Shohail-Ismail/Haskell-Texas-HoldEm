@@ -6,7 +6,7 @@
    * [Running the program](#how-to-run)
 
 ## Overview
-This is a Haskell implementation of Texas Hold'em created for my COM2108 (Functional Programming) university module. This project includes a working Texas HoldEm Poker game with additional features such as predefined player strategies (random, passive, aggressive) and an option for human input to play the game.
+This is a Haskell implementation of Texas Hold'em created for my COM2108 (Functional Programming) university module. This project includes a working Texas HoldEm Poker game with additional features such as predefined player strategies (random, passive, aggressive) and an option for human input to play the game. There is also extensive documentation outlining my design, choices for development, and iterative testing to ensure functionality and address edge cases.
 
 ## Core features
 - Simulation of a Poker game with different player strategies:
