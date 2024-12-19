@@ -12,7 +12,6 @@ module TexasHoldEm where
 import Data.Char
 import Data.List
 import Data.Ord
-import Debug.Trace -- import for debugging only
 import GHC.IO
 import System.Random
 import Text.Read
