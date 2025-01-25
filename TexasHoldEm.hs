@@ -463,12 +463,12 @@ main = do
   gs <- initGame 4 1000 10 [HumanPlayer, RandomPlayer, PassivePlayer, AggressivePlayer]
 
   -- Prints initial game state for human player's reference
-  --print gs
   putStrLn "\n\nWelcome to the Curry-no Royale, may the purest of luck be with you! Your details are as follows:\n"
+    print gs
 
   -- Runs 5 betting rounds
   finalGS <- bettingRound gs
 
   -- Prints final game state after showdown
   putStrLn "\n\nThe round is over - look below to see how you did!\n"
-  --print finalGS
+  print finalGS
